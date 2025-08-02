@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("/fonts/BebasNeue-Regular.ttf") format("truetype"); /* Replace with the actual path to your font file */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-bebas {
+  font-family: "Bebas Neue", sans-serif;
+}
