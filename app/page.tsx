@@ -35,7 +35,7 @@ export default function Home() {
       <MediaWall />
       {/* <Leaderboard /> */}
       {/* <TeamSection /> */}
-      {/* <Footer /> */}
+      <Footer />
     </main>
   )
 }

@@ -84,13 +84,13 @@ export default function HeroSection() {
           <a href="/" className="text-white hover:text-yellow-400 transition-colors font-medium">
             Home
           </a>
-          <a href="/events" className="text-white hover:text-yellow-400 transition-colors font-medium">
+          <a href="/" className="text-white hover:text-yellow-400 transition-colors font-medium">
             Events
           </a>
-          <a href="/auth" className="text-white hover:text-yellow-400 transition-colors font-medium">
+          <a href="/" className="text-white hover:text-yellow-400 transition-colors font-medium">
             Join Us
           </a>
-          <a href="/merchandise" className="text-white hover:text-yellow-400 transition-colors font-medium">
+          <a href="/" className="text-white hover:text-yellow-400 transition-colors font-medium">
             Merch
           </a>
         </div>
@@ -132,7 +132,7 @@ export default function HeroSection() {
           animate={startContentAnimation ? { y: 0, opacity: 1 } : {}}
           transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
         >
-          <span className="text-red-800 bg-clip-text text-transparent font-sans" style={{
+          <span className="bg-gradient-to-r from-red-800 via-red-800 to-red-800 bg-clip-text text-transparent font-sans" style={{
             // fontFamily: 'Archivo Black, sans-serif',
           }}>
             {text}

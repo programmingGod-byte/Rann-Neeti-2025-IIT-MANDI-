@@ -141,7 +141,7 @@ export default function Footer() {
           </div>
 
           {/* Contact Info */}
-          <div>
+          {/* <div>
             <motion.h4
               className="text-white font-bold text-lg mb-4"
               initial={{ opacity: 0, y: 30 }}
@@ -169,7 +169,7 @@ export default function Footer() {
                 <span className="text-sm">info@ignite2025.com</span>
               </div>
             </motion.div>
-          </div>
+          </div> */}
         </div>
 
         {/* Bottom bar */}
